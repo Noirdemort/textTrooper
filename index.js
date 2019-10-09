@@ -18,7 +18,7 @@ worker
 
 let PDFJS = require('pdfjs-dist');
 
-let pathToPDF = './alice_credit_report.pdf';
+let pathToPDF = './homer_credit_report.pdf';
 
 let toText = Pdf2TextObj();
 let onPageDone = function () { }; // don't want to do anything between pages
